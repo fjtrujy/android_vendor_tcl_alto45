@@ -1,4 +1,4 @@
-# android_vendor_lenovo_a6000
+# android_vendor_tcl_alto45
 
 work in progress
-# android_vendor_lenovo_a6000
+# android_vendor_tcl_alto45
