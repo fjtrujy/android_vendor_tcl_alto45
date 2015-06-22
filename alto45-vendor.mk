@@ -1,4 +1,4 @@
-# Copyright (C) 2014 The CyanogenMod Project
+# Copyright (C) 2015 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -16,10 +16,27 @@
 
 # Pick up overlay for features that depend on non-open-source files
 PRODUCT_PACKAGES += \
-    com.qualcomm.location \
-    TimeService \
+    com.qualcomm.location
+
+PRODUCT_PACKAGES += \
+    qcrilmsgtunnel \
+    shutdownlistener \
+    TimeService
+
+PRODUCT_PACKAGES += \
+    qcnvitems \
+    qcrilhook
+
+PRODUCT_PACKAGES += \
+    libqct_resampler \
+    libmm-abl
+
+PRODUCT_PACKAGES += \
+    libloc_api_v02 \
+    libloc_ds_api
+
+PRODUCT_PACKAGES += \
     libHevcSwDecoder \
-    libtime_genoff \
-    libmdmdetect
+    libtime_genoff
 
 $(call inherit-product, vendor/tcl/alto45/alto45-vendor-blobs.mk)
