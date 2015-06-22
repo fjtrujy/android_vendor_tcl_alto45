@@ -111,7 +111,6 @@ PRODUCT_COPY_FILES += \
     vendor/tcl/alto45/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/tcl/alto45/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
     vendor/tcl/alto45/proprietary/vendor/lib/drm/libdrmprplugin.so:system/vendor/lib/drm/libdrmprplugin.so \
-    vendor/tcl/alto45/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/tcl/alto45/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
     vendor/tcl/alto45/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
     vendor/tcl/alto45/proprietary/vendor/lib/libprdrmdecrypt.so:system/vendor/lib/libprdrmdecrypt.so \
@@ -121,7 +120,6 @@ PRODUCT_COPY_FILES += \
     vendor/tcl/alto45/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
     vendor/tcl/alto45/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/tcl/alto45/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
-    vendor/tcl/alto45/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/tcl/alto45/proprietary/bin/location-mq:system/bin/location-mq \
     vendor/tcl/alto45/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/tcl/alto45/proprietary/vendor/etc/calmodule.cfg:system/vendor/etc/calmodule.cfg \
@@ -149,8 +147,6 @@ PRODUCT_COPY_FILES += \
     vendor/tcl/alto45/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
     vendor/tcl/alto45/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/tcl/alto45/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
-    vendor/tcl/alto45/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
-    vendor/tcl/alto45/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
     vendor/tcl/alto45/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
     vendor/tcl/alto45/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
     vendor/tcl/alto45/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
@@ -203,8 +199,6 @@ PRODUCT_COPY_FILES += \
     vendor/tcl/alto45/proprietary/bin/radish:system/bin/radish \
     vendor/tcl/alto45/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/tcl/alto45/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-    vendor/tcl/alto45/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
-    vendor/tcl/alto45/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/tcl/alto45/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
     vendor/tcl/alto45/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/tcl/alto45/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
@@ -214,7 +208,6 @@ PRODUCT_COPY_FILES += \
     vendor/tcl/alto45/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/tcl/alto45/proprietary/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so \
     vendor/tcl/alto45/proprietary/vendor/lib/libcalmodule_akm.so:system/vendor/lib/libcalmodule_akm.so \
-    vendor/tcl/alto45/proprietary/vendor/lib/libcalmodule_yamaha.so:system/vendor/lib/libcalmodule_yamaha.so \
     vendor/tcl/alto45/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/tcl/alto45/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/tcl/alto45/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
@@ -226,5 +219,5 @@ PRODUCT_COPY_FILES += \
     vendor/tcl/alto45/proprietary/etc/firmware/venus.b03:system/etc/firmware/venus.b03 \
     vendor/tcl/alto45/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
     vendor/tcl/alto45/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
-    vendor/tcl/alto45/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt
+    vendor/tcl/alto45/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
     vendor/tcl/alto45/proprietary/lib/modules/pronto/pronto_wlan.ko:system/lib/modules/pronto/pronto_wlan.ko

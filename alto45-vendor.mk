@@ -24,10 +24,6 @@ PRODUCT_PACKAGES += \
     TimeService
 
 PRODUCT_PACKAGES += \
-    qcnvitems \
-    qcrilhook
-
-PRODUCT_PACKAGES += \
     libqct_resampler \
     libmm-abl
 
